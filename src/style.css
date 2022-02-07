@@ -1,0 +1,160 @@
+body {
+  font-family: 'Poppins' !important;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  padding-top: 60px;
+  background-color: #8EC5FC;
+  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+  width: 100%;
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.phone-form {
+  border-radius: 10px !important;
+}
+
+.table-width{
+  border-radius: 10px !important;
+}
+
+h2 {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.self-end {
+  align-self: flex-end;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.spinner {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border-left-color: #09f;
+  margin: 0 auto;
+  margin-top: 150px;
+
+  animation: spin 1s ease infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+::placeholder{
+  font-size: 0.8rem;
+}
+
+footer{
+  position: relative;
+  bottom: 0;
+}
+
+#search{
+  width: 12rem;
+}
+
+@media screen and (max-width: 1920px){
+  .phone-form {
+    border: 1px solid #000;
+    width: 28%;
+    margin: 0 auto;
+    padding: 15px;
+  }
+  
+
+  .table-width {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 850px){
+  .phone-form {
+    border: 1px solid #000;
+    width: 50%;
+    margin: 0 auto;
+    padding: 15px;
+  }
+  
+
+  .table-width {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+}
+
+@media screen and (max-width: 850px){
+  .phone-form {
+    border: 1px solid #000;
+    width: 50%;
+    margin: 0 auto;
+    padding: 15px;
+  }
+  
+
+  .table-width {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+}
+
+@media screen and (max-width: 650px){
+  .phone-form {
+    border: 1px solid #000;
+    width: 70%;
+    margin: 0 auto;
+    padding: 15px;
+  }
+  
+
+  .table-width {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+}
+
+@media screen and (max-width: 430px){
+  .phone-form {
+    border: 1px solid #000;
+    width: 80%;
+    margin: 0 auto;
+    padding: 15px;
+  }
+  
+
+  .table-width {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+}
+
+
